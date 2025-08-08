@@ -1,0 +1,101 @@
+{
+  "accuracy": 0.8963157894736842,
+  "precision": {
+    "micro": 0.8963157894736842,
+    "macro": 0.8966186550380904,
+    "per_class": {
+      "worldsportsbusinesssci/tech": 0.9049652963160705
+    }
+  },
+  "recall": {
+    "micro": 0.8963157894736842,
+    "macro": 0.8963157894736842,
+    "per_class": {
+      "worldsportsbusinesssci/tech": 0.8921052631578947
+    }
+  },
+  "f1": {
+    "micro": 0.8963157894736842,
+    "macro": 0.8963726508269176,
+    "weighted": 0.8963726508269176,
+    "per_class": {
+      "worldsportsbusinesssci/tech": 0.8984892658362047
+    }
+  },
+  "support": {
+    "worldsportsbusinesssci/tech": 1900
+  },
+  "confusion_matrix": [
+    [
+      1695,
+      40,
+      84,
+      81
+    ],
+    [
+      49,
+      1820,
+      18,
+      13
+    ],
+    [
+      66,
+      19,
+      1620,
+      195
+    ],
+    [
+      63,
+      18,
+      142,
+      1677
+    ]
+  ],
+  "class_report": {
+    "0": {
+      "precision": 0.9049652963160705,
+      "recall": 0.8921052631578947,
+      "f1-score": 0.8984892658362047,
+      "support": 1900.0
+    },
+    "1": {
+      "precision": 0.959409594095941,
+      "recall": 0.9578947368421052,
+      "f1-score": 0.9586515670265999,
+      "support": 1900.0
+    },
+    "2": {
+      "precision": 0.869098712446352,
+      "recall": 0.8526315789473684,
+      "f1-score": 0.8607863974495218,
+      "support": 1900.0
+    },
+    "3": {
+      "precision": 0.853001017293998,
+      "recall": 0.8826315789473684,
+      "f1-score": 0.8675633729953441,
+      "support": 1900.0
+    },
+    "accuracy": 0.8963157894736842,
+    "macro avg": {
+      "precision": 0.8966186550380904,
+      "recall": 0.8963157894736842,
+      "f1-score": 0.8963726508269176,
+      "support": 7600.0
+    },
+    "weighted avg": {
+      "precision": 0.8966186550380902,
+      "recall": 0.8963157894736842,
+      "f1-score": 0.8963726508269176,
+      "support": 7600.0
+    }
+  },
+  "actor_critic": {
+    "reward_mse": 0.09324676543474197,
+    "avg_confidence": 0.9810457825660706,
+    "avg_confidence_correct": 0.9893468618392944,
+    "avg_confidence_incorrect": 0.9092855453491211,
+    "confidence_gap": 0.08006131649017334,
+    "reward_correlation": 0.35916247922639577
+  }
+}
